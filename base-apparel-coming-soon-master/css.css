@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100&display=swap');
+
+@media (min-width: 1440px)  {
+
+main{
+    display:flex;
+    justify-content: center;
+}
+section{
+    display:flex;
+    flex-direction: row;
+}
+
+ .header{
+    position: absolute;
+    width:20%;
+    top: 150px;
+    left: 250px;
+}
+
+button.boton{
+    position:absolute;
+    width: 80px;
+    height: 40px;
+    background-image: url(./images/icon-arrow.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: pink;
+    border-radius: 40%;
+    margin-top: 460px;
+    margin-left: 280px;
+}
+/*
+.title{
+    position: absolute;
+    margin-left: 600px;
+}
+
+span{
+    color: pink;
+}
+*/
+.fondo{
+    position:absolute;
+    width:100%;
+    z-index:-1;
+} 
+
+.text{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    text-align: left;
+    position:relative;
+    width:50%;
+}
+
+.texto{
+    font-family:Josefin Sans, Arial, sans-serif;
+    font-size: 16px;
+    width:40%;
+}
+
+.title{
+    font-family:Josefin Sans, Arial, sans-serif;
+    padding-bottom: -100px;
+    width: 40%;
+    height: 25%;
+    font-size: 82px;
+    padding: 0px 0px 0px 0px;
+
+}
+span{
+    color: pink;
+}
+input.datos{
+    position:relative;
+    margin-left: 20px;
+    width:40%;
+    height: 35px;
+    border-radius: 20px;
+}
+
+/* .imagen{
+    position:absolute;
+    border: solid;
+    align-self: right;
+    width:100%;
+} */
+
+}
+@media (max-width: 1399px) {
+
+    main{
+        display:flex;
+        justify-content: center;
+    }
+    section{
+        display:flex;
+        flex-direction: column-reverse;
+        justify-content:center;
+        align-items: center;
+    }
+    
+     .header{
+        position: absolute;
+        width:20%;
+        bottom: 1390px;
+        left: 80px;
+    }
+    
+    button.boton{
+        position:absolute;
+        width: 80px;
+        height: 40px;
+        background-image: url(./images/icon-arrow.svg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-color: pink;
+        border-radius: 40%;
+        margin-top: 460px;
+        margin-left: 280px;
+    }
+    /*
+    .title{
+        position: absolute;
+        margin-left: 600px;
+    }
+    
+    span{
+        color: pink;
+    }
+    */
+    .fondo{
+        position:absolute;
+        width:100%;
+        z-index:-1;
+    } 
+    
+    .text{
+        display: flex;
+        flex-direction: column;
+        justify-content:center;
+        align-items: center;
+        text-align: center;
+        
+        position:relative;
+        width:100%;
+    }
+    
+    .texto{
+        font-family:Josefin Sans, Arial, sans-serif;
+        font-size: 16px;
+        width:40%;
+    }
+    
+    .title{
+        font-family:Josefin Sans, Arial, sans-serif;
+        padding-bottom: -100px;
+        text-align: center;
+        width: 80%;
+        height: 33%;
+        font-size: 82px;
+        padding: 0px 0px 0px 0px;
+        margin-right: 50px;
+    }
+    span{
+        color: pink;
+    }
+    input.datos{
+        position:relative;
+        margin-left: 20px;
+        width:40%;
+        height: 35px;
+        border-radius: 20px;
+    }
+    
+    .imagen{
+        margin-top: 60px;
+    }
+
+}
