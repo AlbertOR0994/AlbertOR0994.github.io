@@ -1,0 +1,156 @@
+html{
+background-image: url(./1.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+scroll-behavior: smooth;
+size: solid;
+height: 1400px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+article.r{
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 35px;
+}
+header{
+    color: white;
+}
+header>h1{
+   text-align: center;
+}
+header>div.fh{
+    text-align: right;
+    font-size: 25px;
+}
+div.resumen{
+    padding: 15px 15px 15px 20px;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size:25px;
+    color:black;
+    
+}
+
+div.resumen>article{
+    background-color:rgba(228, 245, 255, 0.596);
+    color:white;
+    border: solid 5px;
+    padding: 25px 25px 15px 25px;
+    margin: 10px 50px 10px 10px;
+}
+
+main{
+    box-sizing: border-box;
+    background-color:rgba(228, 245, 255, 0.596);
+    display: flex;
+    margin-left: 100px;
+    margin-top: 50px;
+    padding-top: 25px;
+    padding-bottom:10px;
+    border:solid 5px rgba(255, 255, 255, 0.452);
+    width: 90%;
+}
+
+div.imagen{
+    border:solid 5px rgba(0, 0, 0, 0.246);
+    margin: 20px 10px 0px 20px;
+    height: 10%;
+    
+}
+div.imagen>img{
+    position:center;
+    width:500px;
+    height:350px;
+}
+
+div.Hoy{
+    box-sizing: border-box;
+    font-size: 15px;
+    justify-content: right;
+    border:solid 2px;
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 30%;
+   
+}
+
+div.Mañana{
+    box-sizing: border-box;
+    font-size: 15px;
+    justify-content:left;
+    border:solid 2px;
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 30%;
+    
+}
+div.Mañana>article.DiferenciaAnual{
+    box-sizing: border-box;
+    margin-top: 20px; 
+    margin-bottom: 20px;
+    padding: 10px 100px 70px 80px;
+    width: 50%;
+    height: 30%;
+    
+}
+article.hoy{
+    box-sizing: border-box;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    padding: 10px 100px 50px 80px;
+    width: 50%;
+    height: 20%;
+  
+}
+article.mañana{
+    
+    box-sizing: border-box;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px 100px 80px 80px;
+    width: 50%;
+    
+}
+
+hr{
+color:rgba(0, 0, 0, 0.507);
+border: solid 1px;
+padding:0px 0px 0px 0px;
+margin: 10px 50px 0px 10px;
+}
+
+label {
+    margin-top:150px;
+    margin-left: 150px;
+    display: block;
+    font: 2rem 'Fira Sans', sans-serif;
+}
+
+input,
+label {
+    margin-top: 50px;
+    margin-left: 350px;
+    size: 8rem;
+    margin: 8rem 8;
+}
+div.Pdias{
+    position:absolute;
+    margin-left:650px;
+    margin-top: -50px;
+    border: solid black;
+}
+
+button.inicio{
+    font-size: 20px;
+    margin-left: 800px;
+    position:relative;
+}
