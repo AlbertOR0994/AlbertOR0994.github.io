@@ -1,0 +1,112 @@
+html{
+background-image: url(./1.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+scroll-behavior: smooth;
+size: solid;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+article.r{
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 80px;
+}
+header{
+    color: white;
+}
+header>h1{
+   text-align: center;
+}
+header>div.fh{
+    text-align: right;
+    font-size: 45px;
+}
+div.resumen{
+    padding: 30px 20px 20px 40px;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size:25px;
+    color:black;
+    
+}
+
+div.resumen>article{
+    background-color:rgba(228, 245, 255, 0.596);
+    color:white;
+    border: solid 5px;
+    padding: 100px 100px 30px 100px;
+    margin: 10px 50px 10px 10px;
+}
+
+main{
+    background-color:rgba(228, 245, 255, 0.596);
+    display: flex;
+    margin-top: 50px;
+    padding-top: 25px;
+    padding-bottom:50px;
+    border:solid 5px;
+    width: 80%;
+}
+
+div.imagen{
+    border:solid 5px;
+    margin: 40px 20px 10px 20px;
+}
+div.imagen>img{
+    position:center;
+    width:1080px;
+    height:800px;
+}
+
+div.Hoy{
+    font-size: 25px;
+    justify-content: right;
+    border:solid 2px;
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 15%;
+    height: 10%;
+    padding-right: 200px;
+}
+
+div.Mañana{
+    font-size: 25px;
+    justify-content:left;
+    border:solid 2px;
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 15%;
+    height: 10%;
+    padding-right: 200px;
+}
+div.Mañana>article.DiferenciaAnual,div.Hoy>article.DiferenciaAnual{
+    margin-top: 20px; 
+    padding: 10px 200px 250px 80px;
+    
+}
+article.hoy{
+    border-bottom: 1px solid;
+    margin-top: 20px;
+    padding: 10px 200px 250px 80px;
+  
+}
+article.mañana{
+    border-bottom: 1px solid;
+    margin-top: 20px;
+    padding: 10px 200px 250px 80px;
+    
+}
+
+hr{
+color:black;
+border: solid 1px;
+padding:0px 0px 0px 0px;
+margin: 10px 150px 0px 10px;
+}
