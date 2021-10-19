@@ -1,1 +1,0 @@
-Mi estimación ha sido de unas 4 Horas teniendo en cuenta el HTML y el CSS pero a la hora de el Javascript es donde me he atascado y no he sabido resolver, asi que me he centrado en que la WEB sea responsiva.
